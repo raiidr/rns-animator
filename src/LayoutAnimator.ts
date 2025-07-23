@@ -1,3 +1,4 @@
+// rns-animator\src\LayoutAnimator.ts
 import { NativeModules } from 'react-native';
 
 type BaseConfig = {

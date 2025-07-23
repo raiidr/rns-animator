@@ -1,1 +1,2 @@
-export { LayoutAnimatorAPI } from './src/LayoutAnimator';
+// rns-animator\index.js
+export { RNSLayoutAnimator } from './src/LayoutAnimator';
