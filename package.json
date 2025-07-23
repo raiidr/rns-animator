@@ -1,7 +1,8 @@
 {
   "name": "rns-animator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
+  "types": "src/LayoutAnimator.ts",
   "keywords": [
     "react-native",
     "animation",
@@ -13,6 +14,5 @@
   "license": "MIT",
   "peerDependencies": {
     "react-native": ">=0.72.0",
-    "expo-dev-client": "*"
   }
 }
