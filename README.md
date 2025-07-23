@@ -34,14 +34,7 @@ RNSLayoutAnimator.spring({ damping: 1.2, stiffness: 7 });
 - `spring()`
 - `sharedTransition()`
 
-````
+```
 
----
 
-When you’re ready, hit:
-
-```bash
-npm publish --access public
-````
-
-Let me know if you want to do the whole release flow together — versioning, changelog, GitHub tagging, and all the sweet polish that makes packages sparkle ✨
+```
