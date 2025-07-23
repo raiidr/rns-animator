@@ -1,5 +1,4 @@
-//android\app\src\main\java\com\rnsanimator\www\LayoutAnimatorPackage.kt
-
+// android/src/main/java/com/rnsanimator/www/LayoutAnimatorPackage.kt
 package com.rnsanimator.www
 
 import com.facebook.react.ReactPackage

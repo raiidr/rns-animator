@@ -38,8 +38,24 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"           // only if you're using Kotlin
 apply plugin: "com.facebook.react"       // enables autolinking
 
+android {
+    compileSdkVersion 35
+
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 35
+    }
+    
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java']
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+        }
+    }
+}
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
+    implementation 'androidx.interpolator:interpolator:1.0.0' // for smoother animations
 }
 
