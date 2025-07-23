@@ -1,6 +1,6 @@
 {
   "name": "rns-animator",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "index.js",
   "types": "src/LayoutAnimator.ts",
   "keywords": [
