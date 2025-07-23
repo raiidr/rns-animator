@@ -34,4 +34,12 @@ allprojects {
 }
 
 apply plugin: "expo-root-project"
-apply plugin: "com.facebook.react.rootproject"
+apply plugin: "com.android.library"
+apply plugin: "kotlin-android"           // only if you're using Kotlin
+apply plugin: "com.facebook.react"       // enables autolinking
+
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
+}
+

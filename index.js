@@ -1,2 +1,4 @@
 // rns-animator\index.js
-export { RNSLayoutAnimator } from './src/LayoutAnimator';
+import RNSLayoutAnimator from './src/LayoutAnimator';
+export const RNSLayoutAnimator = RNSLayoutAnimator;
+export default RNSLayoutAnimator;
