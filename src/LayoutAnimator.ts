@@ -1,6 +1,8 @@
 // rns-animator\src\LayoutAnimator.ts
 import { NativeModules } from 'react-native';
 
+console.log("LayoutAnimator module: ", NativeModules.LayoutAnimator);
+
 type BaseConfig = {
   duration?: number;
   easing?: EasingType;

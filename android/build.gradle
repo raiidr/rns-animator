@@ -35,8 +35,8 @@ allprojects {
 
 apply plugin: "expo-root-project"
 apply plugin: "com.android.library"
-apply plugin: "kotlin-android"           // only if you're using Kotlin
-apply plugin: "com.facebook.react"       // enables autolinking
+apply plugin: "kotlin-android"         
+apply plugin: "com.facebook.react"     
 
 android {
     compileSdkVersion 35
@@ -56,6 +56,6 @@ android {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'androidx.interpolator:interpolator:1.0.0' // for smoother animations
+    implementation 'androidx.interpolator:interpolator:1.0.0'
 }
 
