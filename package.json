@@ -1,10 +1,10 @@
 {
   "name": "rns-animator",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "main": "index.js",
   "types": "src/LayoutAnimator.ts",
   "expo": {
-    "plugin": "./plugin/index.js"
+    "plugin": "./plugin"
   },
   "keywords": [
     "react-native",
